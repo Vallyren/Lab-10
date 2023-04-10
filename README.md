@@ -17,5 +17,6 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ##### Step 3: Configure basic settings for each router.
 ###### a.	Configure host names as shown in the topology.
 ![2023-04-10_16-55-50](https://user-images.githubusercontent.com/122459067/230915362-16ad92ab-cb4f-4893-8b46-07f60e36532a.png)
+https://github.com/Vallyren/Lab-10/blob/main/R1_startup-config.txt
 ![2023-04-10_16-56-39](https://user-images.githubusercontent.com/122459067/230915485-38c42c4f-f3f0-43c7-b9f5-fdf508c1a7cd.png)
 ![2023-04-10_16-57-20](https://user-images.githubusercontent.com/122459067/230915616-bf5f6ee9-9e05-4794-b88c-020f35f7db21.png)
