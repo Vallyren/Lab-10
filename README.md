@@ -57,3 +57,11 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ![2023-04-10_17-25-14](https://user-images.githubusercontent.com/122459067/230920825-6a9174fd-ba50-4547-98ed-b013cc048a75.png)
 
 ![2023-04-10_17-26-27](https://user-images.githubusercontent.com/122459067/230921020-cffe3c99-8a22-490b-bbfc-c1efb976e5f0.png)
+
+##### Step 7: Verify basic network connectivity.
+
+###### a.	Ping from R1 to R3. If the pings are not successful, troubleshoot the basic device configurations before continuing.
+
+![2023-04-10_17-48-19](https://user-images.githubusercontent.com/122459067/230925367-21fb1a3f-af86-4c30-9e63-581f82d2e73f.png)
+
+###### b.	Ping from PC-A on the R1 LAN to PC-B and PC-C on the R3 LANs. If the pings are not successful, troubleshoot the basic device configurations before continuing.
