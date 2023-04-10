@@ -65,3 +65,6 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ![2023-04-10_17-48-19](https://user-images.githubusercontent.com/122459067/230925367-21fb1a3f-af86-4c30-9e63-581f82d2e73f.png)
 
 ###### b.	Ping from PC-A on the R1 LAN to PC-B and PC-C on the R3 LANs. If the pings are not successful, troubleshoot the basic device configurations before continuing.
+
+![2023-04-10_17-51-17](https://user-images.githubusercontent.com/122459067/230925913-f92afae6-6cae-4b42-a9ff-43108842096b.png)
+
