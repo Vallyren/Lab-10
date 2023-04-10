@@ -18,6 +18,12 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ![2023-04-10_16-48-35](https://user-images.githubusercontent.com/122459067/230913878-3fe3a496-8917-4ee6-a655-a1525b0879fe.png)
 
 ##### Step 3: Configure basic settings for each router.
+![2023-04-10_16-52-13](https://user-images.githubusercontent.com/122459067/230920417-541ab9eb-2096-49bc-ac9b-276e6907cce5.png)
+
+![2023-04-10_17-25-14](https://user-images.githubusercontent.com/122459067/230920825-6a9174fd-ba50-4547-98ed-b013cc048a75.png)
+
+![2023-04-10_17-26-27](https://user-images.githubusercontent.com/122459067/230921020-cffe3c99-8a22-490b-bbfc-c1efb976e5f0.png)
+
 ###### a.	Configure host names as shown in the topology.
 ![2023-04-10_16-55-50](https://user-images.githubusercontent.com/122459067/230915362-16ad92ab-cb4f-4893-8b46-07f60e36532a.png)
 
