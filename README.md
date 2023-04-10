@@ -12,11 +12,16 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ![2023-04-10_16-44-27](https://user-images.githubusercontent.com/122459067/230913195-7e8fdb62-3d23-4037-9a70-eceaa15b297e.png)
 ##### Step 2: Disable DNS lookup.
 ![2023-04-10_16-46-14](https://user-images.githubusercontent.com/122459067/230913485-ed1ac971-1525-4802-8a4e-7c176fb70565.png)
+
 ![2023-04-10_16-47-38](https://user-images.githubusercontent.com/122459067/230913707-c9f73a9a-e231-4e24-97ab-34dcb60192ad.png)
+
 ![2023-04-10_16-48-35](https://user-images.githubusercontent.com/122459067/230913878-3fe3a496-8917-4ee6-a655-a1525b0879fe.png)
+
 ##### Step 3: Configure basic settings for each router.
 ###### a.	Configure host names as shown in the topology.
 ![2023-04-10_16-55-50](https://user-images.githubusercontent.com/122459067/230915362-16ad92ab-cb4f-4893-8b46-07f60e36532a.png)
-https://github.com/Vallyren/Lab-10/blob/main/R1_startup-config.txt
+
+
 ![2023-04-10_16-56-39](https://user-images.githubusercontent.com/122459067/230915485-38c42c4f-f3f0-43c7-b9f5-fdf508c1a7cd.png)
+
 ![2023-04-10_16-57-20](https://user-images.githubusercontent.com/122459067/230915616-bf5f6ee9-9e05-4794-b88c-020f35f7db21.png)
