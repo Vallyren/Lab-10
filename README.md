@@ -23,12 +23,6 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ###### a.	Configure host names as shown in the topology.
 
-![2023-04-10_16-52-13](https://user-images.githubusercontent.com/122459067/230920417-541ab9eb-2096-49bc-ac9b-276e6907cce5.png)
-
-![2023-04-10_17-25-14](https://user-images.githubusercontent.com/122459067/230920825-6a9174fd-ba50-4547-98ed-b013cc048a75.png)
-
-![2023-04-10_17-26-27](https://user-images.githubusercontent.com/122459067/230921020-cffe3c99-8a22-490b-bbfc-c1efb976e5f0.png)
-
 ###### b.	Configure the interface IP addresses as shown in the IP addressing table.
 
 ![2023-04-10_16-55-50](https://user-images.githubusercontent.com/122459067/230915362-16ad92ab-cb4f-4893-8b46-07f60e36532a.png)
@@ -50,3 +44,16 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ![2023-04-10_17-35-25](https://user-images.githubusercontent.com/122459067/230922753-f3246f68-f14e-4899-adb2-243166920cdf.png)
 
+##### Step 5: Configure S3.
+
+![2023-04-10_17-40-29](https://user-images.githubusercontent.com/122459067/230924584-0e3ccbc7-3e5a-4fd7-a23b-cf17974b1dc7.png)
+
+![2023-04-10_17-44-24](https://user-images.githubusercontent.com/122459067/230924599-9847d0f0-95ec-4198-b476-07f564b8effa.png)
+
+##### Step 6: Configure PC host IP settings.
+
+![2023-04-10_16-52-13](https://user-images.githubusercontent.com/122459067/230920417-541ab9eb-2096-49bc-ac9b-276e6907cce5.png)
+
+![2023-04-10_17-25-14](https://user-images.githubusercontent.com/122459067/230920825-6a9174fd-ba50-4547-98ed-b013cc048a75.png)
+
+![2023-04-10_17-26-27](https://user-images.githubusercontent.com/122459067/230921020-cffe3c99-8a22-490b-bbfc-c1efb976e5f0.png)
