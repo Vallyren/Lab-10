@@ -27,10 +27,13 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ![2023-04-10_17-26-27](https://user-images.githubusercontent.com/122459067/230921020-cffe3c99-8a22-490b-bbfc-c1efb976e5f0.png)
 
-##### b.	Configure the interface IP addresses as shown in the IP addressing table.
+###### b.	Configure the interface IP addresses as shown in the IP addressing table.
 
 ![2023-04-10_16-55-50](https://user-images.githubusercontent.com/122459067/230915362-16ad92ab-cb4f-4893-8b46-07f60e36532a.png)
 
 ![2023-04-10_16-56-39](https://user-images.githubusercontent.com/122459067/230915485-38c42c4f-f3f0-43c7-b9f5-fdf508c1a7cd.png)
 
 ![2023-04-10_16-57-20](https://user-images.githubusercontent.com/122459067/230915616-bf5f6ee9-9e05-4794-b88c-020f35f7db21.png)
+
+##### Step 4: Configure static routes on R1, R2, and R3.
+###### a.	To achieve end-to-end IP reachability, proper static routes must be configured on R1, R2 and R3. R1 and R3 are stub routers, and as such, only need a default route pointing to R2. R2, behaving as the ISP, must know how to reach R1’s and R3’s internal networks before end-to-end IP reachability is achieved. Below is the static route configuration for R1, R2 and R3. On R1, use the following command:
