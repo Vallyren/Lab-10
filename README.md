@@ -96,4 +96,11 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ![2023-04-12_15-13-15](https://user-images.githubusercontent.com/122459067/231453629-4d63e081-90da-4566-8a7e-d46df1ad8b14.png)
 
+##### Step 9:  Save the basic running configuration for all three routers.
+
+![2023-04-12_15-14-49](https://user-images.githubusercontent.com/122459067/231457029-9ec9f396-54b5-4d57-bec8-d15cb23bb6be.png)
+
+![2023-04-12_15-15-40](https://user-images.githubusercontent.com/122459067/231457055-47ee53c4-8220-43f1-9bbe-a924c40a0ae2.png)
+
+![2023-04-12_15-28-26](https://user-images.githubusercontent.com/122459067/231457095-c13446a3-f5dd-4d1c-9bf7-9e46f5e24db9.png)
 
