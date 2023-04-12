@@ -149,5 +149,25 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ##### Step 4: Creating Security Policies
 
 ###### a.	Create an inspect class-map to match traffic to be allowed from the INSIDE zone to the INTERNET zone. Because we trust the INSIDE zone, we allow all the main protocols.
+###### b.	Similarly, create a class-map to match the traffic to be allowed from the CONFROOM zone to the INTERNET zone. Because we do not fully trust the CONFROOM zone, we must limit what the server can send out to the Internet:
+###### c.	Now that the class-maps are created, you can create the policy-maps.
 
+![2023-04-12_17-08-37](https://user-images.githubusercontent.com/122459067/231483956-7db65ee6-6cf3-4243-9383-176ccf7491b2.png)
 
+##### Step 5: Create the Zone Pairs
+
+###### a.	Creating the zone-pairs:
+###### b.	Verify the zone-pairs were correctly created by issuing the show zone-pair security command. Notice that no policies are associated with the zone-pairs yet. The security policies will be applied to zone-pairs in the next step.
+
+![2023-04-12_17-11-07](https://user-images.githubusercontent.com/122459067/231484505-985d28e0-6607-41fa-8084-b67c8325af53.png)
+
+##### Step 6: Applying Security Policies
+
+###### a.	As the last configuration step, apply the policy-maps to the zone-pairs
+###### b.	Issue the show zone-pair security command once again to verify the zone-pair configuration. Notice that the service-polices are now displayed:
+
+![2023-04-12_17-15-54](https://user-images.githubusercontent.com/122459067/231485975-07fa0878-3f26-46a4-b6cd-4b90b5c13f8b.png)
+
+###### c.	To obtain more information about the zone-pairs, their policy-maps, the class-maps and match counters, use the show policy-map type inspect zone-pair command
+
+![2023-04-12_17-32-05](https://user-images.githubusercontent.com/122459067/231490688-431900da-de1f-484c-8107-f7e93c2fae25.png)
