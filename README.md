@@ -104,3 +104,13 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ![2023-04-12_15-28-26](https://user-images.githubusercontent.com/122459067/231457095-c13446a3-f5dd-4d1c-9bf7-9e46f5e24db9.png)
 
+#### Part 2: Configuring a Zone-Based Policy Firewall (ZPF)
+
+##### Step 1: Verify end-to-end network connectivity.
+
+###### a.	Ping from R1 to R3 using both of R3’s G0/0/1 interface IP addresses (192.168.3.1 and 192.168.33.1).
+
+
+###### b.	Ping from PC-A on the R1 LAN to PC-C on the R3 conference room LAN.
+
+###### c.	Ping from PC-A on the R1 LAN to PC-B on the R3 internal LAN.
