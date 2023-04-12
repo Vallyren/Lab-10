@@ -137,3 +137,10 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ![2023-04-12_16-56-06](https://user-images.githubusercontent.com/122459067/231480430-1dd1a5d0-28d7-4fa5-be5b-f3a6d8fec761.png)
 
 ![2023-04-12_16-56-27](https://user-images.githubusercontent.com/122459067/231480461-d8857502-8cce-4b6d-9b29-de3844474ca3.png)
+
+##### Step 3: Creating the security zones.
+
+###### A security zone is a group of interfaces with similar security properties and requirements. For example, if a router has three interfaces connected to internal networks, all three interfaces can be placed under the same zone named “internal”. Because all security properties are configured to the zone instead of to the individual router interfaces, the firewall design is much more scalable.
+In this lab, the R3 site has three interfaces; one connected to an internal trusted network, one connected to the conference room network and another connected to the internet. Because all three networks have different security requirements and properties, we will create three different security zones.
+Security zones are created in global configuration mode, and the command allows for zone name definition. In R3, create three zones named INSIDE, CONFROOM and INTERNET:
+
