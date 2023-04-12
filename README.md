@@ -171,3 +171,13 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ###### c.	To obtain more information about the zone-pairs, their policy-maps, the class-maps and match counters, use the show policy-map type inspect zone-pair command
 
 ![2023-04-12_17-32-05](https://user-images.githubusercontent.com/122459067/231490688-431900da-de1f-484c-8107-f7e93c2fae25.png)
+
+##### Step 7: Assign Interfaces to the Proper Security Zones
+
+###### a.	Assign R3’s G0/0 to the CONFROOM security zone:
+
+
+
+###### b.	Assign R3’s G0/1 to the INSIDE security zone:
+
+###### c.	Assign R3’s S0/0/1 to the INTERNET security zone:
