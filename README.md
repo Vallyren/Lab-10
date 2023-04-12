@@ -68,3 +68,12 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ![2023-04-10_17-51-17](https://user-images.githubusercontent.com/122459067/230925913-f92afae6-6cae-4b42-a9ff-43108842096b.png)
 
+##### Step 8: Configure a user account, encrypted passwords and crypto keys for SSH.
+###### Note: Passwords in this task are set to a minimum of 10 characters, but are relatively simple for the benefit of performing the lab. More complex passwords are recommended in a production network.
+###### a.	Configure a minimum password length using the security passwords command to set a minimum password length of 10 characters.
+###### b.	Configure a domain name.
+###### c.	Configure crypto keys for SSH
+###### d.	Configure an admin01 user account using algorithm-type scrypt for encryption and a password of cisco12345.
+
+![2023-04-12_15-03-15](https://user-images.githubusercontent.com/122459067/231451482-bdc9deb9-8cce-4724-b5c2-9ca8ff35f0ed.png)
+
