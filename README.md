@@ -120,3 +120,20 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ![2023-04-12_16-48-44](https://user-images.githubusercontent.com/122459067/231478257-dfba8aba-cf0f-4d5b-852c-d2ca1440de5d.png)
 
+##### Step 2: Display the R3 running configurations.
+
+###### a.	Issue the show ip interface brief command on R3 to verify the correct IP addresses were assigned. Use the Address Table to verify the addresses.
+
+![2023-04-12_16-51-12](https://user-images.githubusercontent.com/122459067/231479059-54bd2eea-7c7e-4e0d-b870-85c3b7ffbffc.png)
+
+![2023-04-12_16-51-34](https://user-images.githubusercontent.com/122459067/231479104-f67021ea-fcae-4fbf-b42b-73ab65a94693.png)
+
+###### b.	Issue the show ip route command on R3 to verify it has a static default route pointing to R2’s G0/0/1 interface.
+
+![2023-04-12_16-53-08](https://user-images.githubusercontent.com/122459067/231479900-7ca8184c-ed50-4217-8c5b-5288fa6cdce8.png)
+
+###### c.	Issue the show run command to review the current basic configuration on R3.
+
+![2023-04-12_16-56-06](https://user-images.githubusercontent.com/122459067/231480430-1dd1a5d0-28d7-4fa5-be5b-f3a6d8fec761.png)
+
+![2023-04-12_16-56-27](https://user-images.githubusercontent.com/122459067/231480461-d8857502-8cce-4b6d-9b29-de3844474ca3.png)
