@@ -171,3 +171,33 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ###### b.	Even though no commands were issued to create a “self” zone, the output above still displays it.
 
+To manage traffic intended directly to the router or traffic created by itself, in the understanding of ZBF, a special zone is designated - self. By default, the zone has already been created. One of the main differences from the "normal" zones is the default behavior, traffic to/from the self zone is allowed. Possible only for tcp, udp, icmp, H323 protocols.
+
+#### Part 3: Verify ZPF Firewall Functionality
+##### Step 1: Traffic originating on the Internet
+###### a.	To test the firewall’s effectiveness, ping PC-B from PC-A. In PC-A, open a command prompt and issue a ping to 192.168.3.3.
+
+![2023-04-14_12-44-09](https://user-images.githubusercontent.com/122459067/232009733-a58aefb0-c276-4f10-8490-61d111460a21.png)
+
+###### b.	Ping PC-C from PC-A. In PC-A, open a command window and ping 192.168.33.3
+
+![2023-04-14_12-45-06](https://user-images.githubusercontent.com/122459067/232009932-4a56cfc3-f97e-4eb9-b269-ebc0cb39b49a.png)
+
+###### c.	Ping PC-A from PC-B. In PC-B, open a command window and issue a ping to 192.168.1.3.
+
+![2023-04-14_12-46-04](https://user-images.githubusercontent.com/122459067/232010137-9037728f-dc6a-4360-9a9a-f0fb68617b44.png)
+
+###### d.	Ping PC-A from PC-C. In PC-C, open a command window and ping 192.168.1.3
+
+![2023-04-14_12-46-56](https://user-images.githubusercontent.com/122459067/232010355-551256b3-c6ca-43f5-a073-6485052330c9.png)
+
+##### Step 2: The Self Zone Verification
+
+###### a.	From PC-A ping R3’s G0/0/1.3 interface:
+
+![2023-04-14_12-47-52](https://user-images.githubusercontent.com/122459067/232010603-bbffb0c1-212c-48cc-b01c-75267eb7fcc5.png)
+
+###### b.	From PC-C ping R3’s G0/0/1.3 interface:
+
+![2023-04-14_12-48-39](https://user-images.githubusercontent.com/122459067/232010794-52001579-8077-4909-bf9f-68c426aeab74.png)
+
