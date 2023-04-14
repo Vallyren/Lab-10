@@ -60,11 +60,11 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ###### a.	Ping from R1 to R3. If the pings are not successful, troubleshoot the basic device configurations before continuing.
 
-![2023-04-10_17-48-19](https://user-images.githubusercontent.com/122459067/230925367-21fb1a3f-af86-4c30-9e63-581f82d2e73f.png)
+![2023-04-14_11-58-24](https://user-images.githubusercontent.com/122459067/231996849-9a51a634-b1de-4581-830b-c98c345f6f79.png)
 
 ###### b.	Ping from PC-A on the R1 LAN to PC-B and PC-C on the R3 LANs. If the pings are not successful, troubleshoot the basic device configurations before continuing.
 
-![2023-04-10_17-51-17](https://user-images.githubusercontent.com/122459067/230925913-f92afae6-6cae-4b42-a9ff-43108842096b.png)
+![2023-04-14_12-00-17](https://user-images.githubusercontent.com/122459067/231997302-9b7eda10-7501-470d-bad1-f802a4025989.png)
 
 ##### Step 8: Configure a user account, encrypted passwords and crypto keys for SSH.
 ###### Note: Passwords in this task are set to a minimum of 10 characters, but are relatively simple for the benefit of performing the lab. More complex passwords are recommended in a production network.
