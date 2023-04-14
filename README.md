@@ -34,15 +34,15 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ##### Step 4: Configure static routes on R1, R2, and R3.
 ###### a.	To achieve end-to-end IP reachability, proper static routes must be configured on R1, R2 and R3. R1 and R3 are stub routers, and as such, only need a default route pointing to R2. R2, behaving as the ISP, must know how to reach R1’s and R3’s internal networks before end-to-end IP reachability is achieved. Below is the static route configuration for R1, R2 and R3. On R1, use the following command:
 
-![2023-04-10_17-32-37](https://user-images.githubusercontent.com/122459067/230922226-9d2088ce-dc60-4c98-9a78-b7940fd16878.png)
+![2023-04-14_11-12-25](https://user-images.githubusercontent.com/122459067/231985220-19236b41-4e0c-4605-be16-0582b66ee388.png)
 
 ###### b.	On R2, use the following commands.
 
-![2023-04-10_17-34-14](https://user-images.githubusercontent.com/122459067/230922523-b6e3472b-76fd-4199-90b2-b158ff778d00.png)
+![2023-04-14_11-13-47](https://user-images.githubusercontent.com/122459067/231985568-6986cea8-6f4a-4650-9f5a-0f697317ed1f.png)
 
 ###### c.	On R3, use the following command.
 
-![2023-04-10_17-35-25](https://user-images.githubusercontent.com/122459067/230922753-f3246f68-f14e-4899-adb2-243166920cdf.png)
+![2023-04-14_11-14-35](https://user-images.githubusercontent.com/122459067/231985823-c6a57bdc-aae0-49e2-97c8-04d214dfcaa1.png)
 
 ##### Step 5: Configure S3.
 
