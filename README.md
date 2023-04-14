@@ -107,19 +107,17 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ###### a.	Issue the show ip interface brief command on R3 to verify the correct IP addresses were assigned. Use the Address Table to verify the addresses.
 
-![2023-04-12_16-51-12](https://user-images.githubusercontent.com/122459067/231479059-54bd2eea-7c7e-4e0d-b870-85c3b7ffbffc.png)
-
-![2023-04-12_16-51-34](https://user-images.githubusercontent.com/122459067/231479104-f67021ea-fcae-4fbf-b42b-73ab65a94693.png)
+![2023-04-14_12-12-42](https://user-images.githubusercontent.com/122459067/232001551-782cb4e1-a33f-4612-810e-e6d210332056.png)
 
 ###### b.	Issue the show ip route command on R3 to verify it has a static default route pointing to R2’s G0/0/1 interface.
 
-![2023-04-12_16-53-08](https://user-images.githubusercontent.com/122459067/231479900-7ca8184c-ed50-4217-8c5b-5288fa6cdce8.png)
+![2023-04-14_12-13-55](https://user-images.githubusercontent.com/122459067/232001743-1869f421-6312-4348-8474-fcfd72d8a622.png)
 
 ###### c.	Issue the show run command to review the current basic configuration on R3.
 
-![2023-04-12_16-56-06](https://user-images.githubusercontent.com/122459067/231480430-1dd1a5d0-28d7-4fa5-be5b-f3a6d8fec761.png)
+![2023-04-14_12-14-56](https://user-images.githubusercontent.com/122459067/232001974-a805ed97-34c6-47dc-9019-7ca6afbc09c8.png)
 
-![2023-04-12_16-56-27](https://user-images.githubusercontent.com/122459067/231480461-d8857502-8cce-4b6d-9b29-de3844474ca3.png)
+![2023-04-14_12-15-22](https://user-images.githubusercontent.com/122459067/232002084-06d58712-8fb5-49ec-b9fa-4620a347935c.png)
 
 ##### Step 3: Creating the security zones.
 
@@ -127,7 +125,7 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ###### In this lab, the R3 site has three interfaces; one connected to an internal trusted network, one connected to the conference room network and another connected to the internet. Because all three networks have different security requirements and properties, we will create three different security zones.
 ###### Security zones are created in global configuration mode, and the command allows for zone name definition. In R3, create three zones named INSIDE, CONFROOM and INTERNET:
 
-![2023-04-12_16-59-32](https://user-images.githubusercontent.com/122459067/231481389-7b53743a-7280-4424-9f4b-8eab35f7d03d.png)
+![2023-04-14_12-21-24](https://user-images.githubusercontent.com/122459067/232003618-a09f1106-c594-4888-8501-11f5d108ec69.png)
 
 ##### Step 4: Creating Security Policies
 
@@ -135,7 +133,7 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ###### b.	Similarly, create a class-map to match the traffic to be allowed from the CONFROOM zone to the INTERNET zone. Because we do not fully trust the CONFROOM zone, we must limit what the server can send out to the Internet:
 ###### c.	Now that the class-maps are created, you can create the policy-maps.
 
-![2023-04-12_17-08-37](https://user-images.githubusercontent.com/122459067/231483956-7db65ee6-6cf3-4243-9383-176ccf7491b2.png)
+![2023-04-14_12-24-31](https://user-images.githubusercontent.com/122459067/232004511-caa78dce-44fc-448a-94d7-47187f89514d.png)
 
 ##### Step 5: Create the Zone Pairs
 
