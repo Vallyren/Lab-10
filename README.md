@@ -71,28 +71,13 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ###### a.	Configure a minimum password length using the security passwords command to set a minimum password length of 10 characters.
 ###### b.	Configure a domain name.
 ###### c.	Configure crypto keys for SSH
-
-![2023-04-12_15-03-15](https://user-images.githubusercontent.com/122459067/231451482-bdc9deb9-8cce-4724-b5c2-9ca8ff35f0ed.png)
-
 ###### d.	Configure an admin01 user account using algorithm-type scrypt for encryption and a password of cisco12345.
-
-![2023-04-12_15-05-31](https://user-images.githubusercontent.com/122459067/231451927-25e5ad5d-1c2b-4abc-95fc-f7f9c87b8f27.png)
-
 ###### e.	Configure line console 0 to use the local user database for logins. For additional security, the exec-timeout command causes the line to log out after 5 minutes of inactivity. The logging synchronous command prevents console messages from interrupting command entry.
-
-![2023-04-12_15-08-29](https://user-images.githubusercontent.com/122459067/231452449-c79b4083-2e43-4944-a791-3489c3548fe4.png)
-
 ###### f.	Configure line aux 0 to use the local user database for logins.
-
-![2023-04-12_15-09-55](https://user-images.githubusercontent.com/122459067/231452806-c3822088-b544-43b7-b9ec-72c937b3b077.png)
-
 ###### g.	Configure line vty 0 4 to use the local user database for logins and restrict access to SSH connections only.
-
-![2023-04-12_15-11-28](https://user-images.githubusercontent.com/122459067/231453192-54cd1b4a-a477-4f21-a380-5a7f2bf2fabc.png)
-
 ###### h.	Configure the enable password with strong encryption.
 
-![2023-04-12_15-13-15](https://user-images.githubusercontent.com/122459067/231453629-4d63e081-90da-4566-8a7e-d46df1ad8b14.png)
+![2023-04-14_12-04-40](https://user-images.githubusercontent.com/122459067/231999097-6fcd0881-780a-4e86-b5c5-e11799869aac.png)
 
 ##### Step 9:  Save the basic running configuration for all three routers.
 
