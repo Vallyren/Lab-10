@@ -81,11 +81,11 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ##### Step 9:  Save the basic running configuration for all three routers.
 
-![2023-04-12_15-14-49](https://user-images.githubusercontent.com/122459067/231457029-9ec9f396-54b5-4d57-bec8-d15cb23bb6be.png)
+![2023-04-14_12-06-31](https://user-images.githubusercontent.com/122459067/231999626-801839b2-3e6d-45fc-9e5a-19aaf4c140cc.png)
 
-![2023-04-12_15-15-40](https://user-images.githubusercontent.com/122459067/231457055-47ee53c4-8220-43f1-9bbe-a924c40a0ae2.png)
+![2023-04-14_12-07-26](https://user-images.githubusercontent.com/122459067/231999869-18018d3d-6469-467a-b2f7-1d8cd9faf70f.png)
 
-![2023-04-12_15-28-26](https://user-images.githubusercontent.com/122459067/231457095-c13446a3-f5dd-4d1c-9bf7-9e46f5e24db9.png)
+![2023-04-14_12-08-01](https://user-images.githubusercontent.com/122459067/231999992-2651eb23-cfa1-4ab8-bf79-c67b22c65384.png)
 
 #### Part 2: Configuring a Zone-Based Policy Firewall (ZPF)
 
