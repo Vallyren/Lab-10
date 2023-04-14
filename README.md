@@ -140,18 +140,18 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 ###### a.	Creating the zone-pairs:
 ###### b.	Verify the zone-pairs were correctly created by issuing the show zone-pair security command. Notice that no policies are associated with the zone-pairs yet. The security policies will be applied to zone-pairs in the next step.
 
-![2023-04-12_17-11-07](https://user-images.githubusercontent.com/122459067/231484505-985d28e0-6607-41fa-8084-b67c8325af53.png)
+![2023-04-14_12-27-33](https://user-images.githubusercontent.com/122459067/232005457-3cec8274-fc4c-40a8-8211-98389509a2f1.png)
 
 ##### Step 6: Applying Security Policies
 
 ###### a.	As the last configuration step, apply the policy-maps to the zone-pairs
 ###### b.	Issue the show zone-pair security command once again to verify the zone-pair configuration. Notice that the service-polices are now displayed:
 
-![2023-04-12_17-15-54](https://user-images.githubusercontent.com/122459067/231485975-07fa0878-3f26-46a4-b6cd-4b90b5c13f8b.png)
+![2023-04-14_12-29-20](https://user-images.githubusercontent.com/122459067/232006005-2fffddd1-633d-4cc3-bbc5-67de84e7f6cc.png)
 
 ###### c.	To obtain more information about the zone-pairs, their policy-maps, the class-maps and match counters, use the show policy-map type inspect zone-pair command
 
-![2023-04-12_17-32-05](https://user-images.githubusercontent.com/122459067/231490688-431900da-de1f-484c-8107-f7e93c2fae25.png)
+![2023-04-14_12-30-26](https://user-images.githubusercontent.com/122459067/232006198-522e9a45-3bc4-492e-a4b4-389ba1911f27.png)
 
 ##### Step 7: Assign Interfaces to the Proper Security Zones
 
