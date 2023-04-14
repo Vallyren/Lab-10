@@ -93,15 +93,15 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ###### a.	Ping from R1 to R3 using both of R3’s G0/0/1 interface IP addresses (192.168.3.1 and 192.168.33.1).
 
-![2023-04-12_16-46-48](https://user-images.githubusercontent.com/122459067/231477734-d73b9e5c-98b0-47da-b973-dc1d1336a942.png)
+![2023-04-14_12-09-16](https://user-images.githubusercontent.com/122459067/232000282-6c2ab324-bc26-40c3-9273-2515ac443e38.png)
 
 ###### b.	Ping from PC-A on the R1 LAN to PC-C on the R3 conference room LAN.
 
-![2023-04-12_16-47-50](https://user-images.githubusercontent.com/122459067/231478040-1dc276ee-95f7-4ae5-bbd3-a65403ca0e67.png)
+![2023-04-14_12-10-06](https://user-images.githubusercontent.com/122459067/232000682-3edc0e8b-9f5a-4713-9092-f443e8d33de4.png)
 
 ###### c.	Ping from PC-A on the R1 LAN to PC-B on the R3 internal LAN.
 
-![2023-04-12_16-48-44](https://user-images.githubusercontent.com/122459067/231478257-dfba8aba-cf0f-4d5b-852c-d2ca1440de5d.png)
+![2023-04-14_12-10-55](https://user-images.githubusercontent.com/122459067/232001036-736bf0d6-85ba-4458-be10-42dd48f14e6b.png)
 
 ##### Step 2: Display the R3 running configurations.
 
