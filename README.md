@@ -10,7 +10,7 @@ In this part of this lab, you set up the network topology and configure basic se
 Note: All tasks should be performed on routers R1, R2, and R3. The procedures are shown for only one of the routers.
 
 ##### Step 1: Cable the network as shown in the topology.
-![2023-04-14_10-35-01](https://user-images.githubusercontent.com/122459067/231980653-56303c1b-8eea-460d-9d1b-0bce58b7e7ce.png)
+![2023-04-14_11-28-18](https://user-images.githubusercontent.com/122459067/231989161-97c95d95-7543-4af9-967d-95d2116cac3d.png)
 
 ##### Step 2: Disable DNS lookup.
 ![2023-04-14_10-55-08](https://user-images.githubusercontent.com/122459067/231981221-1b4f3910-d8c6-4ca8-9b44-fc794c436fa7.png)
@@ -46,17 +46,15 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ##### Step 5: Configure S3.
 
-![2023-04-10_17-40-29](https://user-images.githubusercontent.com/122459067/230924584-0e3ccbc7-3e5a-4fd7-a23b-cf17974b1dc7.png)
-
-![2023-04-10_17-44-24](https://user-images.githubusercontent.com/122459067/230924599-9847d0f0-95ec-4198-b476-07f564b8effa.png)
+![2023-04-14_11-44-29](https://user-images.githubusercontent.com/122459067/231993048-1158deab-9982-4b21-a01b-9f2c704e1e49.png)
 
 ##### Step 6: Configure PC host IP settings.
 
-![2023-04-10_16-52-13](https://user-images.githubusercontent.com/122459067/230920417-541ab9eb-2096-49bc-ac9b-276e6907cce5.png)
+![2023-04-14_11-52-40](https://user-images.githubusercontent.com/122459067/231995011-396ce395-3a56-4ff7-8a70-06e9279868cb.png)
 
-![2023-04-10_17-25-14](https://user-images.githubusercontent.com/122459067/230920825-6a9174fd-ba50-4547-98ed-b013cc048a75.png)
+![2023-04-14_11-54-30](https://user-images.githubusercontent.com/122459067/231995871-17127d5b-b0e4-4ba4-a6bf-60b3fc6ef932.png)
 
-![2023-04-10_17-26-27](https://user-images.githubusercontent.com/122459067/230921020-cffe3c99-8a22-490b-bbfc-c1efb976e5f0.png)
+![2023-04-14_11-56-26](https://user-images.githubusercontent.com/122459067/231996349-f73089f5-b8a4-4ced-9453-8f265935e4ff.png)
 
 ##### Step 7: Verify basic network connectivity.
 
