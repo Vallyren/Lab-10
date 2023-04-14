@@ -151,14 +151,23 @@ Note: All tasks should be performed on routers R1, R2, and R3. The procedures ar
 
 ###### c.	To obtain more information about the zone-pairs, their policy-maps, the class-maps and match counters, use the show policy-map type inspect zone-pair command
 
-![2023-04-14_12-30-26](https://user-images.githubusercontent.com/122459067/232006198-522e9a45-3bc4-492e-a4b4-389ba1911f27.png)
+![2023-04-14_12-32-22](https://user-images.githubusercontent.com/122459067/232006771-6486d32e-d6d0-40f9-a235-03da38abbfe7.png)
+
+![2023-04-14_12-32-56](https://user-images.githubusercontent.com/122459067/232006884-a0a16ebd-8b0a-4805-b91d-ea25f4a9de33.png)
 
 ##### Step 7: Assign Interfaces to the Proper Security Zones
 
 ###### a.	Assign R3’s G0/0 to the CONFROOM security zone:
-
-
-
 ###### b.	Assign R3’s G0/1 to the INSIDE security zone:
-
 ###### c.	Assign R3’s S0/0/1 to the INTERNET security zone:
+
+![2023-04-14_12-34-54](https://user-images.githubusercontent.com/122459067/232007481-87d1e052-55f8-4cd4-af7e-96c36c8e3eaf.png)
+
+##### Step 8: Verify Zone Assignment
+
+###### a.	Issue the show zone security command to ensure the zones were properly created, and the interfaces were correctly assigned:
+
+![2023-04-14_12-36-22](https://user-images.githubusercontent.com/122459067/232007786-f93fc1ff-d4ae-4bfd-be3c-73a38c25f9ee.png)
+
+###### b.	Even though no commands were issued to create a “self” zone, the output above still displays it.
+
